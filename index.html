@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -24,25 +25,47 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Materialize -->
-    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="styles/main.css">
+
     <title>Las recetas de la abuela</title>
 </head>
-<body>
-    <main>
-        <section>
-            <h2>Bienvenido a</h2>
-            <h3>Las Recetas de la Abuela</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt ullam eius at, dolorem consectetur eaque ut nesciunt dignissimos possimus ratione nobis, quia reiciendis non voluptate. Doloribus deserunt libero quis culpa nostrum omnis sint, veniam repudiandae laborum! Officia sed eum saepe eius consectetur quos repellendus assumenda, ullam laborum in repellat quod.</p>
-        </section>
 
-        <section>
-            <h4>Sobre nosotros</h4>
-            <p>Somos cuatro alumnos del Ciclo Formativo de Grado Superior Desarrollo de Aplicaciones Web (DAW).</p>
-        </section>
+<body>
+
+    <main class="row">
+        <aside class="card col s2 orange lighten-2 aside">
+
+            <ul>
+                <li><a class="black-text" href="./categorias/carne">Carne</a></li>
+                <li><a class="black-text" href="./categorias/pescado">Pescado</a></li>
+                <li><a class="black-text" href="./categorias/verduras">Verduras</a></li>
+                <li><a class="black-text" href="./categorias/pasta">Pasta</a></li>
+                <li><a class="black-text" href="./categorias/croquetas">Croquetas</a></li>
+                <li><a class="black-text" href="./categorias/guisos">Guisos</a></li>
+                <li><a class="black-text" href="./cateorias/postres">Postres</a></li>
+            </ul>
+
+        </aside>
+        <div class="col s10">
+            <section>
+                <h2 class="center-align">Bienvenido a</h2>
+                <h3>Las Recetas de la Abuela</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt ullam eius at, dolorem consectetur
+                    eaque ut nesciunt dignissimos possimus ratione nobis, quia reiciendis non voluptate. Doloribus deserunt
+                    libero quis culpa nostrum omnis sint, veniam repudiandae laborum! Officia sed eum saepe eius consectetur
+                    quos repellendus assumenda, ullam laborum in repellat quod.</p>
+            </section>
+    
+            <section>
+                <h4>Sobre nosotros</h4>
+                <p>Somos cuatro alumnos del Ciclo Formativo de Grado Superior Desarrollo de Aplicaciones Web (DAW).</p>
+            </section>
+        </div>
     </main>
+
 </body>
+
 </html>
