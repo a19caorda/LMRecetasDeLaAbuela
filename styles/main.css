@@ -34,6 +34,7 @@ header.carne {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -80vh;
+    text-shadow: 0 0 10px black;
 }
 
 header.pescado {
@@ -42,6 +43,7 @@ header.pescado {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -50vh;
+    text-shadow: 0 0 10px black;
 }
 
 header.verduras {
@@ -50,6 +52,7 @@ header.verduras {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -55vh;
+    text-shadow: 0 0 10px black;
 }
 
 header.pasta {
@@ -58,6 +61,7 @@ header.pasta {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -80vh;
+    text-shadow: 0 0 10px black;
 }
 
 header.croquetas {
@@ -66,6 +70,7 @@ header.croquetas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -60vh;
+    text-shadow: 0 0 10px black;
 }
 
 header.guisos {
@@ -74,6 +79,7 @@ header.guisos {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -80vh;
+    text-shadow: 0 0 10px black;
 }
 
 header.postres {
@@ -82,6 +88,7 @@ header.postres {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -80vh;
+    text-shadow: 0 0 10px black;
 }
 
 header.general {
@@ -90,7 +97,9 @@ header.general {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -160vh;
+    text-shadow: 0 0 10px black;
 }
+
 footer.page-footer {
     background-color: #3d3d3d;
 }
