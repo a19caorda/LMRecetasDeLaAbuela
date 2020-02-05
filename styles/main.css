@@ -103,7 +103,7 @@ header.general {
 footer.page-footer {
     background-color: #3d3d3d;
 }
-ul {
+ul.footer {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
