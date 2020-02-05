@@ -103,11 +103,19 @@ header.general {
 footer.page-footer {
     background-color: #3d3d3d;
 }
-ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+ul.footer {
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
 }
 .espacio {
     margin-right: 170px;
+}
+.icong {
+    width: 50px;
+    height: 50px;
+}
+.icont {
+    width: 50px;
+    height: 50px;
 }
