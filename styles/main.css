@@ -17,3 +17,15 @@ main {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+footer.page-footer {
+    background-color: #3d3d3d;
+}
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+.espacio {
+    margin-right: 170px;
+}
