@@ -1,14 +1,13 @@
-html, body {
+html,
+body {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 main {
-
     flex-grow: 1;
     margin: 0;
-
 }
 
 .aside {
@@ -16,4 +15,79 @@ main {
     margin-bottom: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50pt;
+}
+
+header.carne {
+    padding: 4vh;
+    background: url(../img/carne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80vh;
+}
+
+header.pescado {
+    padding: 4vh;
+    background: url(../img/pescado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50vh;
+}
+
+header.verduras {
+    padding: 4vh;
+    background: url(../img/verdura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -55vh;
+}
+
+header.pasta {
+    padding: 4vh;
+    background: url(../img/pasta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80vh;
+}
+
+header.croquetas {
+    padding: 4vh;
+    background: url(../img/croquetas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -60vh;
+}
+
+header.guisos {
+    padding: 4vh;
+    background: url(../img/guisos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80vh;
+}
+
+header.postres {
+    padding: 4vh;
+    background: url(../img/postres.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80vh;
+}
+
+header.general {
+    padding: 4vh;
+    background: url(../img/general.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -160vh;
 }
