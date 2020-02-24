@@ -122,15 +122,9 @@ footer.page-footer {
     background-color: #3d3d3d;
 }
 ul.footer {
-<<<<<<< HEAD
-    columns: 4;
-    -webkit-columns: 4;
-    -moz-columns: 4;
-=======
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
->>>>>>> 6d46f84124ff16722a4d719e6fbba9bf234ddaf3
 }
 .espacio {
     margin-right: 170px;
