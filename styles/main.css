@@ -5,23 +5,20 @@ body {
     flex-direction: column;
 }
 
- body::-webkit-scrollbar-track
- {
-     border-radius: 10px;
-     background-color: #F5F5F5;
- }
- 
- body::-webkit-scrollbar
- {
-     width: 8px;
-     background-color: #F5F5F5;
- }
- 
- body::-webkit-scrollbar-thumb
- {
-     border-radius: 10px;
-     background-color: #D62929;
- }
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #d62929;
+}
 
 main {
     flex-grow: 1;
@@ -33,6 +30,23 @@ main {
     margin-bottom: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    margin-top: 0;
+    border-radius: 0 0 8px 0;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 600px) {
+    .aside {
+        height: min-content;
+        border-radius: 0 0 8px 8px;
+    }
+    .aside ul {
+        height: min-content;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 16px 8px;
+    }
 }
 
 * {
@@ -51,7 +65,7 @@ header.carne {
     background: url(../img/carne.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -80vh;
+    background-position: center;
     text-shadow: 0 0 10px black;
 }
 
@@ -60,7 +74,7 @@ header.pescado {
     background: url(../img/pescado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -50vh;
+    background-position: center;
     text-shadow: 0 0 10px black;
 }
 
@@ -69,7 +83,7 @@ header.verduras {
     background: url(../img/verdura.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -55vh;
+    background-position: center;
     text-shadow: 0 0 10px black;
 }
 
@@ -78,7 +92,7 @@ header.pasta {
     background: url(../img/pasta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -80vh;
+    background-position: center;
     text-shadow: 0 0 10px black;
 }
 
@@ -87,7 +101,7 @@ header.croquetas {
     background: url(../img/croquetas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -60vh;
+    background-position: center;
     text-shadow: 0 0 10px black;
 }
 
@@ -96,7 +110,7 @@ header.guisos {
     background: url(../img/guisos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -80vh;
+    background-position: center;
     text-shadow: 0 0 10px black;
 }
 
@@ -105,7 +119,7 @@ header.postres {
     background: url(../img/postres.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -80vh;
+    background-position: center;
     text-shadow: 0 0 10px black;
 }
 
@@ -114,7 +128,7 @@ header.general {
     background: url(../img/general.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -160vh;
+    background-position: center;
     text-shadow: 0 0 10px black;
 }
 
