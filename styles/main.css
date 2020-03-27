@@ -146,8 +146,27 @@ ul.footer {
 .icong {
     width: 50px;
     height: 50px;
+    fill: #fff;
 }
 .icont {
     width: 50px;
     height: 50px;
+    fill: #fff;
+}
+
+.card-image::after {
+    content: "";
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card-title {
+    z-index: 999999;
+    font-weight: 800;
 }
