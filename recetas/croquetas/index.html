@@ -7,34 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="manifest" href="./favicon/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <!-- Materialize -->
+    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <link rel="stylesheet" href="styles/main.css">
-
     <title>Las recetas de la abuela</title>
 </head>
 
 <body>
-
     <header class="general">
         <a href="/">
             <h1>Las Recetas de la Abuela</h1>
@@ -42,49 +43,66 @@
     </header>
 
     <main class="row">
+
         <aside class="card col s12 m2 orange lighten-2 aside">
 
             <ul>
-                <li class="nav-link"><a class=" black-text" href="./categorias/carne">Carne</a></li>
-                <li class="nav-link"><a class=" black-text" href="./categorias/pescado">Pescado</a></li>
-                <li class="nav-link"><a class=" black-text" href="./categorias/verduras">Verduras</a></li>
-                <li class="nav-link"><a class=" black-text" href="./categorias/pasta">Pasta</a></li>
-                <li class="nav-link"><a class=" black-text" href="./categorias/croquetas">Croquetas</a></li>
-                <li class="nav-link"><a class=" black-text" href="./categorias/guisos">Guisos</a></li>
-                <li class="nav-link"><a class=" black-text" href="./categorias/postres">Postres</a></li>
+                <li><a class=" black-text" href="../../categorias/carne">Carne</a></li>
+                <li><a class=" black-text" href="../../categorias/pescado">Pescado</a></li>
+                <li><a class=" black-text" href="../../categorias/verduras">Verduras</a></li>
+                <li><a class=" black-text" href="../../categorias/pasta">Pasta</a></li>
+                <li><a class=" black-text" href="../../categorias/croquetas">Croquetas</a></li>
+                <li><a class=" black-text" href="../../categorias/guisos">Guisos</a></li>
+                <li><a class=" black-text" href="../../categorias/postres">Postres</a></li>
             </ul>
 
         </aside>
         <div class="col s12 m10">
-            <section>
-                <h2 class="center-align">Bienvenido a</h2>
-                <h3>Las Recetas de la Abuela</h3>
-                <p>Soy una señora de 86 años que le gusta pasar las tardes viendo 
-                    el programa de Juan y Medio en el Canal Sur. Cuando no está 
-                    Juan y Medio me gusta cocinar mis maravillosas recetas como "nuggets quemados", 
-                    o "batidos hiperproteícos" y decidí compartirlas con los chavalitos.
-                    Ah por cierto, podeis seguirme en Twitter 😎 <a href="https://twitter.com/recetasabuela36" target="_blank">@recetasabuela36</a></p>
-            </section>
+            <h3>Croquetas de jamón</h3>
+            <img src="../../img/croquetasjamon.jpg" alt="Imagen Receta">
 
-            <section>
-                <h4>Sobre nosotros</h4>
-                <p>En verdad no somos una abuela de verdad (sentimos decepcionaros), somos cuatro alumnos del Ciclo Formativo de Grado Superior Desarrollo de Aplicaciones Web (DAW).</p>
-            </section>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>1 litro de leche entera</li>
+                <li>100 gramos de harina</li>
+                <li>100 gramos de mantequilla.</li>
+                <li>Nuez moscada</li>
+                <li>250 gramos de jamón serrano</li>
+                <li>Sal</li>
+                <li>Pimienta</li>
+                <li>Huevos</li>
+                <li>Pan rallado</li>
+            </ul>
+            <h4>Preparación</h4>
+            <ul>
+                <li>1. Comenzaremos haciendo una buena bechamel. Rehogamos en mantequilla y un chorrito de aceite la
+                    harina. Como he comentado antes, la incorporamos tamizada (pasada por un colador). La rehogamos para
+                    que pierda el sabor en crudo.</li>
+                <li>2. Poco a poco vamos incorporando la leche templada o del tiempo. Hasta que consigamos la textura
+                    deseada. Salpimentos, ponemos nuez moscada.</li>
+                <li>3. Agregamos el jamón cortado en trozos pequeños. Dejamos cocinar unos 12 minutos.</li>
+                <li>4. Ponemos la masa en una bandeja, cubrimos con papel film y dejamos enfriar.</li>
+                <li>5. Toca bolear las croquetas. Cogemos un poco de masa, hacemos la forma de la croqueta y pasamos por
+                    huevo y pan rallado.</li>
+                <li>5. Freímos en abundante aceite caliente y pasamos a un papel absorbente para retirar los restos de
+                    aceite.</li>
+            </ul>
         </div>
     </main>
+
     <footer class="page-footer">
         <div class="container">
             <div class="row">
                 <div class="espacio col l3 s6">
                     <h5 class="white-text">Categorías</h5>
                     <ul class="grey-text text-lighten-4 footer">
-                        <li><a class="white-text" href="../categorias/carne"> Carne</li></a>
-                        <li><a class="white-text" href="../categorias/pescado"> Pescado</li></a>
-                        <li><a class="white-text" href="../categorias/verduras"> Verduras</li></a>
-                        <li><a class="white-text" href="../categorias/pasta"> Pasta</li></a>
-                        <li><a class="white-text" href="../categorias/croquetas"> Croquetas</li></a>
-                        <li><a class="white-text" href="../categorias/guisos"> Guisos</li></a>
-                        <li><a class="white-text" href="../categorias/postres"> Postres</li></a>
+                        <li><a class="white-text" href="../../categorias/carne"> Carne</li></a>
+                        <li><a class="white-text" href="../../categorias/pescado"> Pescado</li></a>
+                        <li><a class="white-text" href="../../categorias/verduras"> Verduras</li></a>
+                        <li><a class="white-text" href="../../categorias/pasta"> Pasta</li></a>
+                        <li><a class="white-text" href="../../categorias/croquetas"> Croquetas</li></a>
+                        <li><a class="white-text" href="../../categorias/guisos"> Guisos</li></a>
+                        <li><a class="white-text" href="../../categorias/postres"> Postres</li></a>
                     </ul>
                 </div>
                 <div class="col l7 s12">
@@ -117,7 +135,8 @@
                             <li><a class="white-text" href="https://twitter.com/rafacab_dev"
                                     target="_blank">@rafacab_dev</a></li>
                             <li><a class="white-text" href="https://twitter.com/imdcxo" target="_blank">@imdcxo</a></li>
-                            <li><a class="white-text" href="https://twitter.com/_anxt" target="_blank">@_anxt</a></li>
+                            <li><a class="white-text" href="https://twitter.com/antonioo513"
+                                    target="_blank">@antonioo513</a></li>
                         </div>
 
                     </ul>
@@ -126,6 +145,7 @@
         </div>
         </div>
     </footer>
+
 </body>
 
 </html>
